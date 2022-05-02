@@ -44,11 +44,11 @@ android {
 
 
 dependencies {
-    implementation(Deps.kotlin_stdlib)
-    implementation(Deps.appcompat)
-    implementation(Deps.recyclerview)
-    implementation(Deps.ktx)
-    implementation(Deps.glide)
+     implementation(libs.kotlin.stdlib.jdk8)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.kotlin.ktx)
+    implementation(libs.glide)
 }
 
 //apply(from = "https://gitee.com/caldrem/gradle-maven-kotlin-dsl/raw/master/bintray-with-maven-publish.gradle")
